@@ -2,14 +2,11 @@
 # -*- coding: UTF-8 -*-
 
 '''
-@author: Karl Scholz and Lewin Scholz
+@author: K. and L. Scholz
 @date: 22.11.2019 - 31.1.2020
-@note:  This is an Ant Colony Optimization Algorithm. The idea is to find the fastest way between a
-        couple of points printed in a coordinate system using the collective intelligence ant colonies
-        usually work with. This is the basic algorithm which is enhanced and developed farther in
-        different programs.
+@note:  This is an Ant Colony Optimization Algorithm program. It generates and solves similar networks
+        and saves them in a directory in order for other programs to work with it.
         This program runs best in the Anaconda Spyder IDE.
-        This edition is mainly used to create and delete data for other versions to work with.
 '''
 
 # import libraries:
@@ -231,7 +228,7 @@ print("Program started...")
 nodes = 10 # number of nodes in the network
 learning_rate = 0.999 # the decay rate of the training process for the pheromone
 training_iterations = 1000 # how often does the algorithm has to train
-data_path = "C:/Projekte/ACO-SimilarData3/" # path where the data is saved in text files
+data_path = "C:/ENTER_PATH_HERE" # path where the data is saved in text files
 amount_of_data_files = 10 # number of text files to be created
 
 # clear old data
