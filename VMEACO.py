@@ -2,11 +2,12 @@
 # -*- coding: UTF-8 -*-
 
 '''
-@author: Karl Scholz and Lewin Scholz
+@author: K. and L. Scholz
 @date: 22.11.2019 - 31.1.2020
 @note:  This is an Vector Enhanced Ant Colony Optimization Algorithm. The idea is to find the fastest way between a
         couple of points printed in a coordinate system using the collective intelligence ant colonies
-        usually work with.
+        usually work with combined with vector memory of previous problems. The algorithm is therefore able to learn
+        solving similar problems faster.
         This program runs best in the Anaconda Spyder IDE.
 '''
 # import libraries:
@@ -356,7 +357,7 @@ total_iterations = 100 # how often should the program run
 nodes = 10 # number of nodes in the network
 learning_rate = 0.995 # rate at wich the pheromone decays per round
 training_iterations = 200 # training rate of the ACO
-data_path = "C:/Projekte/ACO-SimilarData2/" # choose a test data set
+data_path = "C:/ENTER_DATA_PATH_HERE" # choose a test data set
 
 
 # create a new vector memory enhanced aco instance
