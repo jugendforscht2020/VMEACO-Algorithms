@@ -2,11 +2,11 @@
 # -*- coding: UTF-8 -*-
 
 '''
-@author: Karl Scholz and Lewin Scholz
+@author: K. and L. Scholz
 @date: 22.11.2019 - 31.1.2020
 @note:  This is an Ant Colony Optimization Algorithm. The idea is to find the fastest way between a
         couple of points printed in a coordinate system using the collective intelligence ant colonies
-        usually work with. This is the basic algorithm which is enhanced and developed farther in
+        work with. This is the basic algorithm which is enhanced and developed farther in
         different programs.
         This program runs best in the Anaconda Spyder IDE.
 '''
