@@ -2,15 +2,11 @@
 # -*- coding: UTF-8 -*-
 
 '''
-@author: Karl Scholz and Lewin Scholz
+@author: K. and L. Scholz
 @date: 22.11.2019 - 31.1.2020
-@note:  This is an Ant Colony Optimization Algorithm. The idea is to find the fastest way between a
-        couple of points printed in a coordinate system using the collective intelligence ant colonies
-        usually work with. This is the basic algorithm which is enhanced and developed farther in
-        different programs.
+@note:  This is an Ant Colony Optimization Algorithm. It finds the best relationship 
+        between the parameter for training the algorithm using a three dimensional data plotting heatmap.
         This program runs best in the Anaconda Spyder IDE.
-        This edition is used to find the best relationship between the parameter for training the
-        algorithm using a three dimensional data plotting heatmap.
 '''
 
 # import libraries:
@@ -170,7 +166,7 @@ def read_data(data_path, test_data_number):
 print("Program started...")
 # set important variables
 nodes = 10 # number of nodes in the network
-data_path = "C:/Projekte/ACO/" # path where the data is saved in text files
+data_path = "C:/ENTER_DATA_PATH_HERE" # path where the data is saved in text files
 
 # create two dimensional array later used to represent relationship between pheromone and iterations
 scores = np.zeros((10, 10))
